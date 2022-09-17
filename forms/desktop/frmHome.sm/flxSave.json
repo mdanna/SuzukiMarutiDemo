@@ -4,6 +4,10 @@
         "type": "string",
         "value": "10%"
     },
+    "_left_": {
+        "type": "number",
+        "value": ""
+    },
     "_margin_": [
         0,
         0,
@@ -49,6 +53,32 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxContent",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": "66%"
+            },
+            "right": {
+                "type": "string",
+                "value": ""
+            },
+            "width": {
+                "type": "string",
+                "value": "33%"
+            }
+        },
+        "b3": {
+            "left": {
+                "type": "string",
+                "value": "50%"
+            },
+            "width": {
+                "type": "string",
+                "value": "50%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

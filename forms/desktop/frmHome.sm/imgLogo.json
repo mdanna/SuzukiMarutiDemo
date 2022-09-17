@@ -46,7 +46,7 @@
     "isvisible": true,
     "kuid": "gbb54034155c4edb8ceaf383e76e8f9c",
     "name": "kony.ui.Image2",
-    "parent": "flxHeder",
+    "parent": "flxHeader",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

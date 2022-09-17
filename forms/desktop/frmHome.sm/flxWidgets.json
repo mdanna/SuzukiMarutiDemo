@@ -32,7 +32,6 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "flxSelector",
@@ -53,6 +52,22 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxContent",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "20%"
+            },
+            "layoutType": 2
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "30%"
+            },
+            "layoutType": 2
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -64,9 +64,21 @@
     "month": 9,
     "name": "kony.ui.Calendar",
     "noofmonths": 1,
+    "paddinginpixel": false,
     "pagedate": "/2022",
     "parent": "flxDate",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "padding": [
+                2,
+                0,
+                0,
+                0
+            ],
+            "skin": "s6f27b29b505459ebf7ff65b14698791"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "seconds": 0,

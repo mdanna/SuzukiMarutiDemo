@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_placeholder_": "Placeholder",
+    "_placeholder_": "",
     "_skin_": "s2171075f89f48e0becdc3bcb88f0d8f",
     "_text_": "",
     "_top_": {
@@ -61,6 +61,12 @@
     "parent": "flxVenue",
     "pf": "frmHome",
     "placeholderskin": "sadaa74611a54cc28e07e569879853db",
+    "responsiveData": {
+        "b2": {
+            "focusSkin": "s2171075f89f48e0becdc3bcb88f0d8f",
+            "skin": "s2171075f89f48e0becdc3bcb88f0d8f"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,

@@ -32,7 +32,6 @@
         "value": "20%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
         "btnAdd"
@@ -49,6 +48,44 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxWidgets",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "66%"
+            },
+            "top": {
+                "type": "string",
+                "value": "50%"
+            },
+            "width": {
+                "type": "string",
+                "value": "33%"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "33%"
+            },
+            "left": {
+                "type": "string",
+                "value": "50%"
+            },
+            "top": {
+                "type": "string",
+                "value": "66%"
+            },
+            "width": {
+                "type": "string",
+                "value": "50%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

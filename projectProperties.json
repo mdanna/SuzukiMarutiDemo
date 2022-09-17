@@ -368,6 +368,14 @@
     "keyAliasandwear": "",
     "keyStoreFilePath": "",
     "keyStoreFilePathandwear": "",
+    "kfAppInfo": {
+        "a36d94e9-65a2-4c80-a043-5922f2951968": {
+            "appName": "SuzukiMarutiDemo",
+            "baseId": "a5447d60-9d06-47e4-9252-2658339391c3",
+            "id": "a5447d60-9d06-47e4-9252-2658339391c3",
+            "version": "1.0"
+        }
+    },
     "konyVizVersion": "9.2.54",
     "lastmodifiedtime": "1663328321241",
     "location": "false",

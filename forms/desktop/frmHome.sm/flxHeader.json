@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -16,7 +14,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -24,7 +22,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se8cc7e75ddb48aca8bfe92f98d78545",
+    "_skin_": "sc5e86dacf144684a0914bfd9af2e377",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -33,28 +31,30 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "containerweight": 0,
-    "data": {
-        "eventCity": "New York",
-        "eventCountry": "United States",
-        "eventDate": "02/03/2024",
-        "eventVenue": "Cinema Astoria",
-        "isNew": false
-    },
-    "id": "CopyScheduledEvent0b3d0ca9404bf4e",
+    "children": [
+        "imgLogo"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1c94a614da54af4b15455bc5bc5a027",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxScheduledEvents",
+    "kuid": "c76a7c7011cb4287b2bebe550b9fb571",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "frmHome",
     "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "a208e2580c7e4770accae8a07a8c55e5",
-    "wType": "UserWidgetInstance",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

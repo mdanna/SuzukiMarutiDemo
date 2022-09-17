@@ -40,11 +40,7 @@
         "type": "string",
         "value": "50%"
     },
-    "children": [
-        "ScheduledEvent",
-        "CopyScheduledEvent0a016876b937f47",
-        "CopyScheduledEvent0b3d0ca9404bf4e"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "decelerat": false,
@@ -61,6 +57,20 @@
     "pagingenabled": false,
     "parent": "flxContent",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "32%"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "22%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

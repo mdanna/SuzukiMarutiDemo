@@ -15,6 +15,11 @@
         0
     ],
     "_percent_": true,
+    "_pxMenuIndex": [
+        2,
+        1,
+        0
+    ],
     "_skin_": "sad5ada344dc4c31923a2f9864ff8b81",
     "_title_": null,
     "addWidgetsdone": false,
@@ -42,7 +47,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "flxHeder",
+        "flxHeader",
         "flxContent"
     ],
     "containerweight": 100,
@@ -53,8 +58,8 @@
         }
     },
     "currentBreakpoint": {
-        "kuid": "b1",
-        "width": 1366
+        "kuid": "b2",
+        "width": 1024
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -120,6 +125,9 @@
     "titleBarSkin": "s7ef357b04394136ab9251575c62077e",
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": false
+    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false

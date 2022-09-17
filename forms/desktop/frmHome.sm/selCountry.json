@@ -63,6 +63,12 @@
     "name": "kony.ui.ListBox",
     "parent": "flxSelector",
     "pf": "frmHome",
+    "responsiveData": {
+        "b2": {
+            "focusSkin": "s3cc2b345dcf4b7da71799ab52091fb9",
+            "skin": "s63e9419d0b047a392dd8734f9c2efd8"
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "selectedkey": "none",
