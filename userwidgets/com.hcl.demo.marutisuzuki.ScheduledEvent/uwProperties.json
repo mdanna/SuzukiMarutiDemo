@@ -1,0 +1,135 @@
+{
+    "classname": "ScheduledEvent",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "bada9f4f9b2c4d1eaf67d2b9ba1928db",
+                    "paramList": [],
+                    "propertyKey": "render",
+                    "pw": {
+                        "displayName": "render",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "a208e2580c7e4770accae8a07a8c55e5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "h733dba235d747dd96da380574a66039",
+                    "originalPropertyKey": "eventDate",
+                    "propertyIndex": 1,
+                    "propertyKey": "eventDate",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventDate",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a208e2580c7e4770accae8a07a8c55e5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g15817fa550248feafdc51df0b03369e",
+                    "originalPropertyKey": "eventVenue",
+                    "propertyIndex": 2,
+                    "propertyKey": "eventVenue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventVenue",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a208e2580c7e4770accae8a07a8c55e5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c6a855947b394fa4b4b7fb6fa0e259b4",
+                    "originalPropertyKey": "eventCity",
+                    "propertyIndex": 3,
+                    "propertyKey": "eventCity",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventCity",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a208e2580c7e4770accae8a07a8c55e5",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "d5cc6e6ed46149cebb1f58425c9ae61c",
+                    "originalPropertyKey": "eventCountry",
+                    "propertyIndex": 4,
+                    "propertyKey": "eventCountry",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "eventCountry",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "a208e2580c7e4770accae8a07a8c55e5",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "da3d9b1d187b4ecfa111a02312e8f8ae",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 5,
+                    "propertyKey": "isNew",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "isNew",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblStar",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "h4afecfd04434103bff5433fa6ef8d8f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.marutisuzuki",
+    "version": "1.0.0"
+}
