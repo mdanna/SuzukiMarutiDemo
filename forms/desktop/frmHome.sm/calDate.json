@@ -3,7 +3,11 @@
     "DNDConfig": null,
     "Image": "calbtn.png",
     "_data_": null,
-    "_date_": "16/9/2022",
+    "_date_": [
+        null,
+        null,
+        null
+    ],
     "_height_": {
         "type": "string",
         "value": "50%"
@@ -39,19 +43,17 @@
     "containerweight": 100,
     "contentalignment": 4,
     "datecomponents": [
-        16,
-        9,
-        2022,
-        0,
-        0,
-        0
+        null,
+        null,
+        null
     ],
     "dateeditable": true,
     "dateformat": "dd/MM/yyyy",
-    "day": 16,
+    "day": null,
     "daytextalignmentincell": 5,
+    "entereddate": null,
     "format": "dd/MM/yyyy",
-    "formatteddate": "16/09/2022",
+    "formatteddate": "",
     "hidedaysheader": false,
     "hidemonthsheader": false,
     "hour": 0,
@@ -60,8 +62,13 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "a165d28331a4459c847070d4d4ffb50b",
+    "luadate": [
+        null,
+        null,
+        null
+    ],
     "minutes": 0,
-    "month": 9,
+    "month": null,
     "name": "kony.ui.Calendar",
     "noofmonths": 1,
     "paddinginpixel": false,
@@ -86,6 +93,5 @@
     "viewtype": "default",
     "wType": "Calendar",
     "widgetalignment": 5,
-    "year": 2022,
     "zindex": 1
 }

@@ -31,7 +31,7 @@ define({
         country: this.view.selCountry.selectedKeyValues ? this.view.selCountry.selectedKeyValues[0][1] : '',
         city: this.view.selCity.selectedKeyValues ? this.view.selCity.selectedKeyValues[0][1] : '',
         venue: this.view.txtVenue.text.trim(),
-        date: `${dateComponents[0]}/${dateComponents[1]}/${dateComponents[2]}`
+        date: dateComponents ? `${dateComponents[0]}/${dateComponents[1]}/${dateComponents[2]}` : null
       };
       if(event.country && event.city && event.venue && event.date){
         const cmpScheduledEvent = new com.hcl.demo.marutisuzuki.ScheduledEvent({
