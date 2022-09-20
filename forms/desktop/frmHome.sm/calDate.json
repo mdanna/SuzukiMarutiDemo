@@ -48,11 +48,11 @@
         null
     ],
     "dateeditable": true,
-    "dateformat": "dd/MM/yyyy",
+    "dateformat": "MM/dd/yyyy",
     "day": null,
     "daytextalignmentincell": 5,
     "entereddate": null,
-    "format": "dd/MM/yyyy",
+    "format": "MM/dd/yyyy",
     "formatteddate": "",
     "hidedaysheader": false,
     "hidemonthsheader": false,
@@ -93,5 +93,6 @@
     "viewtype": "default",
     "wType": "Calendar",
     "widgetalignment": 5,
+    "year": null,
     "zindex": 1
 }

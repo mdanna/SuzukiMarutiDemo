@@ -31,7 +31,7 @@ define({
         country: this.view.selCountry.selectedKeyValues ? this.view.selCountry.selectedKeyValues[0][1] : '',
         city: this.view.selCity.selectedKeyValues ? this.view.selCity.selectedKeyValues[0][1] : '',
         venue: this.view.txtVenue.text.trim(),
-        date: dateComponents ? `${dateComponents[0]}/${dateComponents[1]}/${dateComponents[2]}` : null
+        date: dateComponents ? `${dateComponents[1]}-${dateComponents[0]}-${dateComponents[2]}` : null
       };
       if(event.country && event.city && event.venue && event.date){
         const cmpScheduledEvent = new com.hcl.demo.marutisuzuki.ScheduledEvent({
@@ -55,6 +55,7 @@ define({
       if(localEvents.length > 0){
         voltmx.application.showLoadingScreen(null, 'Saving data...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
         const objSvc = VMXFoundry.getObjectService('SuzukiMarutiObjSvc', {access: 'online'});
+        
         const saveEvent = (index) => {
           if(index < localEvents.length){
             const event = localEvents[index];
@@ -73,6 +74,7 @@ define({
             this.initData();
           }
         };
+        
         saveEvent(0);
       }
     };
